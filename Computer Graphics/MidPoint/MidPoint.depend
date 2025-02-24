@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1740399411 source:c:\users\aishaker\documents\midpoint\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+	<windows.h>
+

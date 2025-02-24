@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1740397352 source:c:\users\aishaker\documents\helloworld\main.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+	<windows.h>
+
+1740397670 source:c:\users\aishaker\documents\dda.cpp
+	<iostream>
+	<graphics.h>
+	<math.h>
+	<windows.h>
+
