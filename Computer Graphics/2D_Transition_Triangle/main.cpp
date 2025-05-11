@@ -34,7 +34,7 @@ int main()
 
     drawTriangle(ax,ay,WHITE);
 
-    // Step i: Scale by 2
+    // Scale by 2
      int x_scaled[3], y_scaled[3];
     for (int i = 0; i < 3; i++) {
         x_scaled[i] = ax[i] * 2;
@@ -43,16 +43,16 @@ int main()
 
    // drawTriangle(x_scaled,y_scaled,YELLOW);
 
-    // Step ii: Translate by (50, 20)
+    // Translate by (50, 20)
     int x_translated[3], y_translated[3];
     for (int i = 0; i < 3; i++) {
         x_translated[i] = x_scaled[i] + 25;
         y_translated[i] = y_scaled[i] + 10;
     }
 
-    drawTriangle(x_translated,y_translated,RED);
+    //drawTriangle(x_translated,y_translated,RED);
 
-     double angle = -45 * PI / 180; // negative for clockwise
+    double angle = -45 * PI / 180; // negative for clockwise
     int x_rotated[3], y_rotated[3];
     for (int i = 0; i < 3; i++) {
         x_rotated[i] = x_translated[i] * cos(angle) - y_translated[i] * sin(angle);
@@ -61,7 +61,7 @@ int main()
 
     //drawTriangle(x_rotated,y_rotated,CYAN);
 
-    // Step iv: Reflect about y-axis (y = -y)
+    // Reflect about y-axis (y = -y)
     int x_reflected[3], y_reflected[3];
     for (int i = 0; i < 3; i++) {
         x_reflected[i] = x_rotated[i];
@@ -69,8 +69,7 @@ int main()
     }
 
     drawTriangle(x_reflected, y_reflected, GREEN);
-
-   // BoundaryFill(x1,y1,bgcolor,bgcolor);
+    
     getch();
     closegraph();
     return 0;
