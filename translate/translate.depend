@@ -1,9 +1,0 @@
-# depslib dependency file v1.0
-1747097411 source:c:\users\aishaker\documents\translate\main.cpp
-	<bits/stdc++.h>
-	<stdio.h>
-	<graphics.h>
-	<conio.h>
-	<windows.h>
-	<cmath>
-
